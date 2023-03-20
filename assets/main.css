@@ -1,0 +1,13 @@
+:root {
+    
+}
+
+body {
+    box-sizing: border-box;
+
+}
+
+#__nuxt {
+    /* width: 100vw; */
+    height: 100vh;
+}

@@ -1,7 +1,9 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+
+</script>
 
 <template>
-  <main>Page: foo</main>
+  <main class="max-w-3xl min-h-full mx-auto">
+    <CarouselBase />
+  </main>
 </template>
-
-<style scoped></style>

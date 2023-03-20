@@ -1,9 +1,9 @@
 <script lang="ts" setup></script>
 
 <template>
-  <LayoutsTheHeader />
+  <LayoutTheHeader />
   <slot />
-  <LayoutsTheFooter />
+  <LayoutTheFooter />
 </template>
 
 <style scoped></style>

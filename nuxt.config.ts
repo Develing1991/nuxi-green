@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  css: ['~/assets/main.css', 'vue3-carousel/dist/carousel.css'],
   modules: [
     '@pinia/nuxt',
     '@nuxtjs/tailwindcss',
@@ -9,10 +10,10 @@ export default defineNuxtConfig({
     // Auto-import pinia stores defined in `~/stores`
     dirs: ['stores'],
   },
-  //   components: [
-  //     {
-  //         path: "~/components/layouts",
-  //         pathPrefix: false,
-  //     },
-  //   ],
+  // components: [
+  //   {
+  //     path: '~/node_modules/vue3-carousel/dist/',
+  //     prefix: 'carousel',
+  //   },
+  // ],
 })

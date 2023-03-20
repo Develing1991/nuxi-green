@@ -13,7 +13,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <div class="flex items-center justify-between mt-16 mb-4 px-2">
+  <div class="flex items-center justify-between mt-16 mb-4 px-2 max-[480px]:mt-10">
     <h2 class="text-xl font-bold max-sm:text-base">
       {{ title }}
     </h2>

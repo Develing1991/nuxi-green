@@ -13,8 +13,8 @@
       <div class="text-xs text-gray-700">
         피자에땅
       </div>
-      <h3 class="text-sm line-clamp-2 cursor-pointer">
-        상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀 상품 타이틀
+      <h3 class="text-sm line-clamp-2 cursor-pointer text-start">
+        상품 타이틀 상품 타이틀 상품 타이틀 상품 상품 타이틀 상품 타이틀 상품 타이틀 상품
       </h3>
       <p class="flex gap-2 items-end flex-wrap">
         <span class="text-sm font-bold text-red-500">50%</span>

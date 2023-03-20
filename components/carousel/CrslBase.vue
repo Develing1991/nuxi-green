@@ -79,7 +79,7 @@ export interface ITest {
 <style scoped>
 .carousel__slide {
   /* padding: 10px; */
-  padding: var(--gap);
+  padding: 0 var(--gap);
 }
 
 .carousel__prev,

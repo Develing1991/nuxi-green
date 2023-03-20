@@ -9,8 +9,8 @@
         <img src="https://kkulconbiz.co.kr/upload/product/1662443665975_32fbeb2c0f7e237bafec49a13255b1bc.jpg" alt="">
       </NuxtLink>
     </div>
-    <div class="flex flex-col gap-2">
-      <div class="text-sm text-gray-700">
+    <div class="flex flex-col items-start gap-1">
+      <div class="text-xs text-gray-700">
         피자에땅
       </div>
       <div class="text-sm line-clamp-2">

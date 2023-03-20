@@ -4,6 +4,8 @@
 
 <template>
   <main class="max-w-3xl min-h-full mx-auto">
-    <CarouselBase />
+    <BannerList />
+    <!-- <ProductItem /> -->
+    <ProductList />
   </main>
 </template>

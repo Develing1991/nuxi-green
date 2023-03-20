@@ -11,10 +11,11 @@ export default defineNuxtConfig({
     // Auto-import pinia stores defined in `~/stores`
     dirs: ['stores'],
   },
-  // components: [
-  //   {
-  //     path: '~/node_modules/vue3-carousel/dist/',
-  //     prefix: 'carousel',
-  //   },
-  // ],
+  components: [
+    {
+      path: '~/components',
+      // prefix: 'carousel',
+      pathPrefix: false,
+    },
+  ],
 })

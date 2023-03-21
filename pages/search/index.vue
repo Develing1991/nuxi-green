@@ -2,6 +2,11 @@
 definePageMeta({
   layout: 'search',
 })
+useHead({
+  titleTemplate: (titleChunk?: string) => {
+    return titleChunk ? `${titleChunk} - 검색 페이지` : '검색 페이지'
+  },
+})
 </script>
 
 <template>

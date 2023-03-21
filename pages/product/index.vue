@@ -2,6 +2,11 @@
 definePageMeta({
   layout: 'product',
 })
+useHead({
+  titleTemplate: (titleChunk?: string) => {
+    return titleChunk ? `${titleChunk} - 상품 리스트` : '상품 리스트'
+  },
+})
 const cols = ref<number>(2)
 const gridToggle = (col: number) => {
   cols.value = col

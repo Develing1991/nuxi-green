@@ -11,15 +11,15 @@ useHead({
     <LinkBnnr />
 
     <!-- <ProductItem /> -->
-    <ProdTtle title="인기상품 ChatGPT4!!" />
-    <ProdList />
+    <MainProdTtle title="인기상품 ChatGPT4!!" />
+    <MainProdList />
 
-    <ProdTtle title="추천상품 ChatGPT4!!" />
-    <ProdList />
+    <MainProdTtle title="추천상품 ChatGPT4!!" />
+    <MainProdList />
 
     <AdmtBnnr />
 
-    <ProdTtle title="할인상품 ChatGPT4!!" />
-    <ProdList />
+    <MainProdTtle title="할인상품 ChatGPT4!!" />
+    <MainProdList />
   </TheMain>
 </template>

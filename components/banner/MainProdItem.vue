@@ -1,21 +1,13 @@
 <script setup lang="ts">
-withDefaults(defineProps<Props>(), {
-  cols: 2,
-})
-</script>
 
-<script  lang="ts">
-interface Props {
-  cols: number
-}
 </script>
 
 <template>
-  <div class="card border-b border-gray-400 pb-4 " :class="cols === 1 ? 'flex  gap-4 items-center max-[360px]:gap-x-2' : ''">
+  <div class="card  p-1">
     <!-- <div class="card max-w-[200px] p-1"> -->
-    <div class="cursor-pointer ">
+    <div class="cursor-pointer">
       <a>
-        <img src="https://cdn.msgtong.com/new_partner/_THUMB_400x280_MTMM9AYT_20210308122202.jpg" class="min-w-[120px]" alt="">
+        <img src="https://cdn.msgtong.com/new_partner/_THUMB_400x280_MTMM9AYT_20210308122202.jpg" alt="">
       </a>
     </div>
     <div class="flex flex-col items-start gap-1">

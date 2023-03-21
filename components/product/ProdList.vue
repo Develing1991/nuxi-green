@@ -1,34 +1,20 @@
 <script setup lang="ts">
-const breakpoints = ref({
-  0: {
-    itemsToShow: 2.5,
-    snapAlign: 'start',
-  },
-  280: {
-    itemsToShow: 2.5,
-    snapAlign: 'start',
-  },
-  480: {
-    itemsToShow: 3.5,
-    snapAlign: 'start',
-  },
-  768: {
-    itemsToShow: 4.5,
-    snapAlign: 'start',
-  },
+withDefaults(defineProps<Props>(), {
+  cols: 2,
 })
 </script>
 
+<script  lang="ts">
+interface Props {
+  cols: number
+}
+</script>
+
 <template>
-  <section class="px-2">
-    <!-- <ProductItem v-for="i in 10" :key="i" /> -->
-    <CrslBase :items="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" :items-to-show="4" :breakpoints="breakpoints" :gap="7">
-      <template #item="{ slide }">
-        <!-- <BannerItem :slide="slide" /> -->
-        <ProdItem />
-      </template>
-    </CrslBase>
-  </section>
+  <div class="grid gap-4 p-4 max-[360px]:gap-x-2 max-[360px]:p-2 max-[279px]:grid-cols-1" :class="`grid-cols-${cols}`">
+    <!-- {{ cols }} -->
+    <slot />
+  </div>
 </template>
 
 <style scoped>

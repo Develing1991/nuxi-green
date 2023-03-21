@@ -15,7 +15,7 @@ const arr = ref([
       <Icon name="ic:twotone-arrow-drop-down" size="15" />
     </BtnBase>
     <Teleport to="body">
-      <div v-show="show" class="h-full bg-black absolute w-full z-10 opacity-80 max-w-3xl mx-auto left-0 right-0" @click="show = false">
+      <div v-show="show" class="h-full bg-black absolute w-full z-10 opacity-80 max-w-3xl mx-auto left-0 right-0 cursor-pointer" @click="show = false">
         <!-- background -->
       </div>
       <ClientOnly>
@@ -25,7 +25,7 @@ const arr = ref([
               <span class="font-bold">
                 정렬
               </span>
-              <Icon name="ic:baseline-close" size="25" @click="show = false" />
+              <Icon name="ic:baseline-close" size="25" class="cursor-pointer" @click="show = false" />
             </li>
 
             <li v-for="(item, index) in arr" :key="index" class="px-4 py-2 hover:bg-cyan-200 cursor-pointer" @click="show = false">
@@ -56,11 +56,11 @@ const arr = ref([
 }
 
 .slide-fade-enter-active {
-  transition: all .3s ease-out;
+  transition: transform .2s ease-out;
 }
 
 .slide-fade-leave-active {
-    transition: all .3s ease-out;
+    transition: transform .2s ease-out;
   /* transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1); */
 }
 

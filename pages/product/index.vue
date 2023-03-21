@@ -15,7 +15,7 @@ const gridToggle = (col: number) => {
 
 <template>
   <TheMain>
-    <section class="flex justify-end gap-4 px-4 mt-4">
+    <section class="flex justify-end gap-4 px-4 pt-4">
       <!-- <SlctBase /> -->
       <!-- <BtnBase class="flex border border-gray-800">
             랭킹순

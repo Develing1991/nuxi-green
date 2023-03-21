@@ -1,0 +1,4 @@
+<template>
+  <ProdHeader />
+  <slot />
+</template>

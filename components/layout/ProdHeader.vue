@@ -24,7 +24,10 @@ const search = () => {
       </div>
     </template>
     <template #right>
-      <Icon name="ic:baseline-search" size="30" class="cursor-pointer" @click="search" />
+      <div class="flex items-center gap-2">
+        <Icon name="ic:outline-home" size="30" class="cursor-pointer" @click="search" />
+        <Icon name="ic:outline-shopping-cart" size="30" class="cursor-pointer" @click="search" />
+      </div>
     </template>
   </TheHeader>
 </template>

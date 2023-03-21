@@ -5,7 +5,7 @@ const search = () => {
   // input ref
   // set search pinia State...
 // request search api
-  router.push('')
+  router.push('/product')
 }
 </script>
 
@@ -17,7 +17,7 @@ const search = () => {
     <template #center>
       <!-- <span @click="$router.push('/')">제목(누르면 홈)</span> -->
       <div class="relative w-full ml-5 mr-2 ">
-        <input class="border border-slate-800 w-full py-1 pl-3 pr-8 rounded" type="text">
+        <input class="border border-slate-800 w-full py-1 pl-3 pr-8 rounded" type="text" @keypress.enter="$router.push('/product')">
         <button class="absolute right-2 top-0 bottom-0 my-auto flex items-center">
           <Icon name="ic:baseline-cancel" size="20" />
         </button>

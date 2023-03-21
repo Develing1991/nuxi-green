@@ -5,7 +5,7 @@ useHead({
 </script>
 
 <template>
-  <main class="max-w-3xl min-h-full mx-auto pb-16 border-l border-r ">
+  <TheMain>
     <MainBnnr />
 
     <LinkBnnr />
@@ -21,5 +21,5 @@ useHead({
 
     <ProdTtle title="할인상품 ChatGPT4!!" />
     <ProdList />
-  </main>
+  </TheMain>
 </template>

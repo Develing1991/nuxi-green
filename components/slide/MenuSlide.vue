@@ -15,10 +15,10 @@ const arr = ref([
       <Icon name="ic:twotone-arrow-drop-down" size="15" />
     </BtnBase>
     <Teleport to="body">
-      <div v-show="show" class="h-full bg-black absolute w-full z-10 opacity-80 max-w-3xl mx-auto left-0 right-0 cursor-pointer" @click="show = false">
-        <!-- background -->
-      </div>
       <ClientOnly>
+        <div v-show="show" class="h-full bg-black absolute w-full z-10 opacity-80 max-w-3xl mx-auto left-0 top-0 right-0 cursor-pointer" @click="show = false">
+          <!-- background -->
+        </div>
         <Transition name="slide-fade">
           <ul v-show="show" class="bg-white absolute w-full bottom-0 opacity-100 z-10 max-w-3xl mx-auto left-0 right-0 border">
             <li class="flex justify-between p-2 items-center border-b-2 border-gray-300">

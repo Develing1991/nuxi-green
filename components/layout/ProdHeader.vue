@@ -25,7 +25,7 @@ const search = () => {
     </template>
     <template #right>
       <div class="flex items-center gap-2">
-        <Icon name="ic:outline-home" size="30" class="cursor-pointer" @click="search" />
+        <Icon name="ic:outline-home" size="30" class="cursor-pointer" @click="$router.push('/')" />
         <Icon name="ic:outline-shopping-cart" size="30" class="cursor-pointer" @click="search" />
       </div>
     </template>

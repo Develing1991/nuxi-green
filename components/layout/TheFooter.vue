@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <footer class="max-w-3xl mx-auto text-sm text-white bg-zinc-900  mt-16 p-4 leading-6">
+  <footer class="max-w-3xl mx-auto text-sm text-white bg-zinc-900  p-4 leading-6 border-l border-r">
     <ul class="flex gap-4 max-[480px]:flex-col ">
       <li>
         <button>서비스 이용약관</button>

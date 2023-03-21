@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <div class="card max-w-[200px] p-1 ">
+  <div class="card max-w-[200px] p-1">
     <div class="cursor-pointer">
-      <NuxtLink>
+      <a>
         <img src="https://kkulconbiz.co.kr/upload/product/1662443665975_32fbeb2c0f7e237bafec49a13255b1bc.jpg" alt="">
-      </NuxtLink>
+      </a>
     </div>
     <div class="flex flex-col items-start gap-1">
       <div class="text-xs text-gray-700">

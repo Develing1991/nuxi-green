@@ -1,5 +1,4 @@
 <template>
-  <MainHeader />
+  <SrchHeader />
   <slot />
-  <TheFooter />
 </template>

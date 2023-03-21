@@ -11,7 +11,7 @@ interface Props {
 </script>
 
 <template>
-  <div class="grid gap-4 p-4 max-[360px]:gap-x-2 max-[360px]:p-2 max-[279px]:grid-cols-1" :class="`grid-cols-${cols}`">
+  <div class="grid gap-4 p-4 max-[360px]:gap-x-2 max-[360px]:p-2 max-[279px]:grid-cols-1" :class="cols === 2 ? 'grid-cols-2' : 'grid-cols-1'">
     <!-- {{ cols }} -->
     <slot />
   </div>

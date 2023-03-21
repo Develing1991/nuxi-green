@@ -11,15 +11,12 @@ const gridToggle = (col: number) => {
 <template>
   <TheMain>
     <section class="flex justify-end gap-4 px-4 mt-4">
-      <div>
-        <!-- <SlctBase /> -->
-
-        <MenuSlide />
-        <!-- <BtnBase class="flex border border-gray-800">
-          랭킹순
-          <Icon name="ic:twotone-arrow-drop-down" size="15" />
+      <!-- <SlctBase /> -->
+      <!-- <BtnBase class="flex border border-gray-800">
+            랭킹순
+            <Icon name="ic:twotone-arrow-drop-down" size="15" />
         </BtnBase> -->
-      </div>
+      <MenuSlide />
       <div class="hidden  max-[480px]:block">
         <!-- <div class=""> -->
         <Icon v-show="cols === 1" name="ic:sharp-grid-view" size="25" class="cursor-pointer" @click="gridToggle(2)" />

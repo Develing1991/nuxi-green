@@ -10,12 +10,20 @@ const gridToggle = (col: number) => {
 
 <template>
   <TheMain>
-    <section>
-      <!-- dropdown select -->
-      <SlctBase />
+    <section class="flex justify-end gap-4 px-4 mt-4">
+      <div>
+        <!-- <SlctBase /> -->
+
+        <MenuSlide />
+        <!-- <BtnBase class="flex border border-gray-800">
+          랭킹순
+          <Icon name="ic:twotone-arrow-drop-down" size="15" />
+        </BtnBase> -->
+      </div>
       <div class="hidden  max-[480px]:block">
+        <!-- <div class=""> -->
         <Icon v-show="cols === 1" name="ic:sharp-grid-view" size="25" class="cursor-pointer" @click="gridToggle(2)" />
-        <Icon v-show="cols === 2" name="ic:sharp-view-list" size="30" class="cursor-pointer" @click="gridToggle(1)" />
+        <Icon v-show="cols === 2" name="ic:sharp-view-list" size="25" class="cursor-pointer" @click="gridToggle(1)" />
       </div>
     </section>
 

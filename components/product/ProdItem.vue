@@ -6,7 +6,7 @@ withDefaults(defineProps<Props>(), {
 
 <script  lang="ts">
 interface Props {
-  cols: number
+  cols?: number
 }
 </script>
 

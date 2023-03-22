@@ -1,6 +1,6 @@
 <template>
   <MainHeader />
   <slot />
-  <NaviBttm />
+  <BaseNavBttm />
   <TheFooter />
 </template>

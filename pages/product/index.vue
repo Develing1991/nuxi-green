@@ -11,6 +11,7 @@ const cols = ref<number>(2)
 const gridToggle = (col: number) => {
   cols.value = col
 }
+const itemId = ref<string>('uuid1')
 </script>
 
 <template>
@@ -31,7 +32,7 @@ const gridToggle = (col: number) => {
 
     <section>
       <ProdList :cols="cols">
-        <ProdItem v-for="i in 10" :key="i" :cols="cols" />
+        <ProdItem v-for="i in 10" :key="i" :cols="cols" @click="$router.push(`/product/${itemId}`)" />
       </ProdList>
     </section>
   </TheMain>

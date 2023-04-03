@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  nuxi-green:
+    platform: linux/x86_64
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/nuxi-green
+      - /nuxi-green/node_modules # exclude
+    ports:
+      - 3000:3000

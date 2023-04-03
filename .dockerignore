@@ -1,0 +1,4 @@
+node_modules
+.nuxt
+docker-compose.yml
+Dockerfile
